@@ -12,8 +12,6 @@
 			GET /getname/{name} - Get a list of prodcut by their names
 			POST /add - Add a product - required: name, price, description
 
-
 		/edit
 			PUT /user - Edit the current logged in user info - required: email, username, password
 			PUT /product/{id} - Edit a specific product info - required: name, price, description
-			DELETE /order/{id} - Cancel an order
